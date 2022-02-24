@@ -1,0 +1,73 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>SPIN Space</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+
+		<div class="default-content flex internal-scroll">
+   			
+   			<div class="default-box-s margin-about" style="margin-top: 40vh">
+        		<h1>SPIN Hub</h1>
+        		<p>The SPIN Hub is our experimental education and community space in Helsinki, located in the Punavuori district. <a href="#upcoming">Upcoming Events &darr;</a></p>
+    		</div>
+
+    		<div class="default-box-s margin-about">
+        		<h1>Archive</h1>
+        		<p>Physical archive.</p>
+    		</div>
+
+    		<div class="default-box-s margin-about">
+        		<h1>Half-Baked Talks</h1>
+        		<p>Talk series.</p>
+    		</div>
+
+    		<div class="default-box-s margin-about">
+        		<h1>_ourchive</h1>
+        		<p>Digital archive.</p>
+    		</div>
+
+    		<div class="default-box-s margin-about" id="upcoming">
+        		<h1>Upcoming Events</h1>
+        		<p>Events.</p>
+        		<div class="accordion" id="upcoming_accordion" style="margin-top: 4vh">
+					{% assign events = site.events | reverse %}
+					{% for event in events %}
+					{% if event.upcoming == true %}
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="h-upcoming">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c-upcoming" aria-expanded="false" aria-controls="c-upcoming">
+							<b style="font-weight: 500;">{{event.display-name}}</b> &nbsp; {{event.display-date}}
+							</button>
+						</h2>
+						<div id="c-upcoming" class="accordion-collapse collapse" aria-labelledby="h-upcoming" data-bs-parent="#upcoming_accordion">
+							<div class="accordion-body">
+								<p>
+								{{event.display-date}}<br>
+								From {{event.display-start-time}} to {{event.display-end-time}}<br><br>
+								{{event.short-description}} For more information, see our <a class="ul-style" href="{{event.url}}">invitation</a>.
+								</p>
+							</div>
+						</div>
+					</div>
+					{% endif %}
+					{% endfor %}
+				</div>
+    		</div>
+
+    	</div>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,33 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+			<meta charset="utf-8">
+			<title>{{page.title}}</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		{{% if page.upcoming == true %}}
+		<a href="/space/#upcoming" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		{{% endif %}}
+		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+
+		<div class="default-content flex internal-scroll noselect">
+
+			<div class="default-box-s left" style="margin-top: 5vh">
+				<h1>{{page.display-name}}</h1>
+				<p>{{page.display-date}}, {{page.display-start-time}} to {{page.display-end-time}}</p>
+	    	</div>
+
+	    	<div class="default-box-s left" style="margin-top: 2vh; margin-bottom: 5vh">
+	    		{{content}}
+	    	</div>
+	</body>
+
+

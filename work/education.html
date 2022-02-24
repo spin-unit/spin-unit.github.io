@@ -1,0 +1,62 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Work - Education</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+		<span class="corner-nav-bl corner-content">
+			<a class="inactive" href="research">Research</a>, <a class="inactive" href="innovation">Innovation</a>, <a class="active" href="">Education</a>
+		</span>
+
+		<div class="default-content flex internal-scroll noselect">
+
+			<div class="default-box-s middle" style="margin-top: 5vh; margin-bottom: 5vh">
+				<h1>Advancing Urban Education</h1>
+				<p><a href="{{project.external_url}}" target="_blank">Direction &#8599;</a></p>
+    		</div>
+
+			{% assign sorted = site.projects | reverse %}
+    		{% for project in sorted %}
+    			{% if project.categories contains "education" %}
+  				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  				{% if thecycle == 'odd' %}
+    				<div class="default-box-s right work-margin">
+    					<img src="{{site.baseurl}}{{project.thumbnail}}">
+    					{% if project.external_url %}
+        				<h2><a href="{{project.external_url}}" target="_blank">{{project.title}} &#8599;</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				{% else %}
+        				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				{% endif %}
+    				</div>
+  				{% endif %}
+  				{% if thecycle == 'even' %}
+  					<div class="default-box-s left work-margin">
+    					<img src="{{site.baseurl}}{{project.thumbnail}}">
+        				{% if project.external_url %}
+        				<h2><a href="{{project.external_url}}" target="_blank">{{project.title}} &#8599;</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				{% else %}
+        				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				{% endif %}
+    				</div>
+  				{% endif %}
+  				{% endif %}
+			{% endfor %}
+
+    	</div>
+
+
+
+	</body>
+	
+</html>

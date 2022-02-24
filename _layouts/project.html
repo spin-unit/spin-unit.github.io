@@ -1,0 +1,35 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+			<meta charset="utf-8">
+			<title>{{page.title}}</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<a href="{{page.return_path}}" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+		<span class="corner-nav-bl corner-content-page-title noselect">{{page.title}}</span>
+		<span class="corner-nav-br corner-content-page-title noselect">{{page.client}}, {{page.year}}</span>
+
+		<div class="default-content flex internal-scroll noselect">
+
+			<div class="default-box-s middle" style="margin-top: 5vh">
+				<h1>{{page.title}}</h1>
+				<p>{{page.description}}</p>
+	    	</div>
+
+	    	<div class="default-box-s middle" style="margin-top: 5vh; margin-bottom: 25vh">
+	    		<img src="{{site.baseurl}}{{page.thumbnail}}">
+	    	</div>
+
+	    	{{content}}
+	</body>
+
+

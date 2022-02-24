@@ -1,0 +1,36 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Ideas</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+		<span class="corner-nav-bl corner-content">
+			<a class="inactive" href="reports">Reports</a>, <a class="active" href="ideas">Ideas</a>, <a class="inactive" href="knowledge">Knowledge</a>
+		</span>
+
+		<div class="default-content flex internal-scroll">
+    		<div class="default-box-xs left u-list" style="margin-top: 5vh;">
+				<h1>Half-Baked Ideas</h1>
+				<ul>
+					{% assign sorted = site.ideas | reverse %}
+    				{% for idea in sorted %}
+    				<li><a class="ul-style" href="{{idea.url}}">[{{idea.display-date}}]&nbsp; {{idea.title}}</a></li>
+    				{% endfor %}
+				</ul>
+    		</div>
+    	</div>
+    	
+	</body>
+	
+</html>
