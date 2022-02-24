@@ -16,21 +16,20 @@
 		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
 		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
 		<span class="corner-nav-bl corner-content">
-			<a class="active" href="#">Research</a>, <a class="inactive" href="innovation">Innovation</a>, <a class="inactive" href="education">Education</a>
+			<a class="active" href="">All</a>, <a class="inactive" href="research">Research</a>, <a class="inactive" href="innovation">Innovation</a>, <a class="inactive" href="education">Education</a>
 		</span>
 
 
 		<div class="default-content flex internal-scroll noselect">
 
 			<div class="default-box-s middle" style="margin-top: 5vh; margin-bottom: 5vh">
-				<h1>Making Data Meaningful</h1>
+				<h1>Our Work</h1>
 				<p><a href="{{project.external_url}}" target="_blank">Direction &#8599;</a></p>
     		</div>
 
 			{% assign sorted = site.projects | reverse %}
 			{% assign i = 0 %}
     		{% for project in sorted %}
-    			{% if project.categories contains "research" %}
   				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   				{% if thecycle == 'odd' %}
   					{% assign i = i | minus:1 %}
@@ -53,7 +52,6 @@
         				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.client}}, {{project.year}}</h3>
         				{% endif %}
     				</div>
-  				{% endif %}
   				{% endif %}
 			{% endfor %}
 
