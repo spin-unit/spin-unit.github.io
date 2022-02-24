@@ -37,9 +37,9 @@
     				<div class="default-box-s right work-margin" style="z-index: {{i}}">
     					<img class="float-r" src="{{site.baseurl}}{{project.thumbnail}}">
     					{% if project.external_url %}
-        				<h2><a href="{{project.external_url}}" target="_blank">{{project.title}} &#8599;</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				<h2><a href="{{project.external_url}}" target="_blank">{{project.title}}</a></h2><h3>{{project.description}}</h3><h3>{{project.place}}, {{project.year}}</h3>
         				{% else %}
-        				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.description}}</h3><h3>{{project.place}}, {{project.year}}</h3>
         				{% endif %}
     				</div>
   				{% endif %}
@@ -48,9 +48,9 @@
   					<div class="default-box-s left work-margin" style="z-index: {{i}}">
     					<img class="float-l" src="{{site.baseurl}}{{project.thumbnail}}">
         				{% if project.external_url %}
-        				<h2><a href="{{project.external_url}}" target="_blank">{{project.title}} &#8599;</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				<h2><a href="{{project.external_url}}" target="_blank">{{project.title}}</a></h2><h3>{{project.description}}</h3><h3>{{project.place}}, {{project.year}}</h3>
         				{% else %}
-        				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.client}}, {{project.year}}</h3>
+        				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.description}}</h3><h3>{{project.place}}, {{project.year}}</h3>
         				{% endif %}
     				</div>
   				{% endif %}

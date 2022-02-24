@@ -4,12 +4,13 @@ title:  metaPARK
 date: 2019-10-01
 year: 2019
 client: City of Tallinn
-place: City of Tallinn
+place: Tallinn
 categories: [innovation]
 thumbnail: /assets/img/projects/2019-metapark/recentre-jyv.jpg
+cover-image: /assets/img/projects/2019-metapark/recentre-jyv.jpg
 external_url:
 return_path: /work/innovation
-description: Performance-based parking policy in Tallinn.
+description: Designing a performance-based parking policy for the City of Tallinn.
 ---
 
 

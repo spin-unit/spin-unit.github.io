@@ -6,4 +6,8 @@ twitter:
 linkedin:
 personal:
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Somewhere between a technologist, strategist, and wordsmith, John brings strategy, research, and design experience to SPIN Unit, having previously worked in strategy consulting, academic research, and design positions. He is broadly interested in enabling unique patterns of collaboration and co-existence. In particular, he is interested in digital public infrastructure, community formation and governance, and cities. He received his Bachelor of Arts in History from the University of Chicago, where he was a College Research Fellow in Sociology, and spent a year at the Architectural Association. In his spare time, he plays and rests. 
+
+<a class="ul-style" href="http://johnhadaway.com/" target="_blank">Website</a> |
+<a class="ul-style" href="https://twitter.com/john___hadaway" target="_blank">Twitter</a> |
+<a class="ul-style" href="https://www.linkedin.com/in/john-hadaway-2b6935186" target="_blank">Linkedin</a>

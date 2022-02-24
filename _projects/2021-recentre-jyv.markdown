@@ -4,11 +4,13 @@ title:  Recentre Jyväskylä
 date: 2021-10-30
 year: 2021
 client: City of Jyväskylä
+place: Jyväskylä
 categories: [innovation]
 thumbnail: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
+cover-image: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
 external_url:
 return_path: /work/innovation
-description: Launching a high-street community in Jyväskylä, Central Finland's largest city.
+description: Launching a high-street community in Jyväskylä.
 ---
 
 

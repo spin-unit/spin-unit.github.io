@@ -12,6 +12,7 @@ html, body {
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
+    color: #111;
 }
 
 .noselect {
@@ -85,7 +86,7 @@ html, body {
 }
 
 .home-text-nav > a {
-	color: #000;
+	color: #111;
 	font-weight: 400;
 	text-decoration: none;
 }
@@ -105,7 +106,7 @@ html, body {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: #111;
     z-index: 10;
 }
 
@@ -164,7 +165,7 @@ html, body {
 
 .corner-social {
     font-weight: 700;
-    color: #000;
+    color: #111;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 15px;
@@ -173,7 +174,7 @@ html, body {
 
 .corner-social > a {
     text-decoration: none;
-    color: #000;
+    color: #111;
 }
 
 .corner-social > a:hover {
@@ -204,7 +205,7 @@ html, body {
 }
 
 a.active {
-    color: #000;
+    color: #111;
 }
 
 a.inactive {
@@ -212,7 +213,7 @@ a.inactive {
 }
 
 a.inactive:hover {
-    color: #000;
+    color: #111;
     text-decoration: none;
 }
 
@@ -256,7 +257,7 @@ a.inactive:hover {
     line-height: 35px;
     margin-bottom: 10px;
     margin-top: 0px;
-    color: #000;
+    color: #111;
 }
 
 .default-box-s > p {
@@ -314,7 +315,7 @@ a.inactive:hover {
     line-height: 35px;
     margin-bottom: 10px;
     margin-top: 0px;
-    color: #000;
+    color: #111;
 }
 
 .default-box-xs > p {
@@ -338,7 +339,7 @@ a.inactive:hover {
 
 .ul-style {
     font-size: 18px;
-    color: #000;
+    color: #111;
     text-decoration: none;
 }
 
@@ -370,6 +371,29 @@ a.inactive:hover {
 
 .float-m {
     clear: both;
+}
+
+.list-a > a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #111;
+    font-size: 18px;
+    line-height: 18px;
+    }
+
+.list-a > a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #999;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.list-a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #111;
+    font-size: 6px;
 }
 
 
@@ -405,7 +429,7 @@ a.inactive:hover {
 
 h2 > a {
     text-decoration: none;
-    color: #000;
+    color: #111;
     }
 
 h2 > a:hover {
@@ -415,28 +439,28 @@ h2 > a:hover {
 
 .default-box-s > h3 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 13px;
     margin-top: 0px;
     color: #999;
 }
 
 .right > img {
-    max-width: 25vw;
-    max-height: 25vh;
+    max-width: 45%;
+    max-height: 100%;
     margin-bottom: 10px;
 }
 
 .left > img {
-    max-width: 25vw;
-    max-height: 25vh;
+    max-width: 45%;
+    max-height: 100%;
     margin-bottom: 10px;
 }
 
 p > a {
     text-decoration: none;
     font-weight: 500;
-    color: #000;
+    color: #111;
     }
 
 p > a:hover {
@@ -446,7 +470,7 @@ p > a:hover {
 }
 
 .work-margin {
-    margin-bottom: -10vh;
+    margin-bottom: -20vh;
 }
 
 
@@ -461,7 +485,7 @@ button[aria-expanded="true"]{
 
 .accordion-button{
     background-color: #fff !important;
-    color: #000 !important;
+    color: #111 !important;
     font-size: 18px !important;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -469,7 +493,7 @@ button[aria-expanded="true"]{
 
 .accordion-body{
     background-color: #fff !important;
-    color: #000 !important;
+    color: #111 !important;
     font-size: 18px !important;
     padding-top: 15px;
     padding-bottom: 15px;
