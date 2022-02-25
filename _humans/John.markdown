@@ -5,6 +5,7 @@ position:
 twitter:
 linkedin:
 personal:
+pp:
 ---
 Somewhere between a technologist, strategist, and wordsmith, John brings strategy, research, and design experience to SPIN Unit, having previously worked in strategy consulting, academic research, and design positions. He is broadly interested in enabling unique patterns of collaboration and co-existence. In particular, he is interested in digital public infrastructure, community formation and governance, and cities. He received his Bachelor of Arts in History from the University of Chicago, where he was a College Research Fellow in Sociology, and spent a year at the Architectural Association. In his spare time, he plays and rests. 
 
