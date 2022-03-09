@@ -473,6 +473,10 @@ p > a:hover {
     margin-bottom: -20vh;
 }
 
+.work-margin-m {
+    margin-bottom: 10vh;
+}
+
 
 /* BOOTSTRAP */
 .collapsing {

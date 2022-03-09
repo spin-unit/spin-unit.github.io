@@ -30,6 +30,7 @@
 			{% assign sorted = site.projects | reverse %}
 			{% assign i = 0 %}
     		{% for project in sorted %}
+    			{% if project.categories contains "featured" %}
   				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   				{% if thecycle == 'odd' %}
   					{% assign i = i | minus:1 %}
@@ -52,6 +53,7 @@
         				<h2><a href="{{project.url}}">{{project.title}}</a></h2><h3>{{project.description}}</h3><h3>{{project.place}}, {{project.year}}</h3>
         				{% endif %}
     				</div>
+  				{% endif %}
   				{% endif %}
 			{% endfor %}
 

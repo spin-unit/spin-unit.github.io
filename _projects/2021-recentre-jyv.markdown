@@ -5,7 +5,7 @@ date: 2021-10-30
 year: 2021
 client: City of Jyväskylä
 place: Jyväskylä
-categories: [innovation]
+categories: [innovation, featured]
 thumbnail: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
 cover-image: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
 external_url:

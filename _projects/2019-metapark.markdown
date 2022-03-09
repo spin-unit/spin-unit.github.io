@@ -5,7 +5,7 @@ date: 2019-10-01
 year: 2019
 client: City of Tallinn
 place: Tallinn
-categories: [innovation]
+categories: [innovation, featured]
 thumbnail: /assets/img/projects/2019-metapark/recentre-jyv.jpg
 cover-image: /assets/img/projects/2019-metapark/recentre-jyv.jpg
 external_url:
