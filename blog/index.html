@@ -14,14 +14,15 @@
 
 	<body>
 		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN Unit</a>
+		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
 		<span class="corner-nav-bl corner-content">
-			<a class="inactive" href="reports">Reports</a>, <a class="active" href="ideas">Ideas</a>
+			<a class="active" href="">Ideas</a>
 		</span>
 
 		<div class="default-content flex internal-scroll">
     		<div class="default-box-xs left u-list" style="margin-top: 5vh;">
-				<h1>Half-Baked Ideas</h1>
+				<h1>Ideas</h1>
 				<ul>
 					{% assign sorted = site.ideas | reverse %}
     				{% for idea in sorted %}
