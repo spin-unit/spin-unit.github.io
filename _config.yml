@@ -55,18 +55,18 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  humans:
+  team:
     output: true
-    permalink: /humans/:path/
+    permalink: /team/:path/
   projects:
     output: true
     permalink: /projects/:path/
   reports:
     output: true
     permalink: /reports/:path/
-  ideas:
+  blogposts:
     output: true
-    permalink: /ideas/:path/
+    permalink: /blogposts/:path/
   events:
     output: true
     permalink: /events/:path/

@@ -14,28 +14,33 @@
 
 	<body>
 		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN Unit</a>
-		<span class="corner-nav-bl corner-content">
-			<a class="inactive" href="../about">About</a>, <a class="active" href="">People</a>
+		<span class="corner-nav-tl corner-content">
+			<a class="inactive" href="../about">About</a>, <a class="active" href="">Team</a>
+		</span>
+		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
+		<span class="corner-nav-bl corner-social noselect">
+			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
+			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
+			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
 		</span>
 
 		<div class="default-content flex internal-scroll">
 
-			<div class="default-box-s margin-about" style="margin-top: 20vh">
+			<div class="default-box-s margin-about" style="margin-top: 25vh">
 				<h1>Team</h1>
 				<p>Our core team is made up of 6 people. We have different life stories, futures, skill sets, and interests, but all of us share a passion for SPIN, our work, and bringing the best out of each other.</p>
 				<div class="accordion" id="team_accordion" style="margin-top: 4vh">
-					{% assign humans = site.humans | sample:6 %}
-					{% for human in humans %}
+					{% assign teammembers = site.team | sample:6 %}
+					{% for member in teammembers %}
 					<div class="accordion-item">
-						<h2 class="accordion-header" id="h{{human.c-id}}">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c{{human.c-id}}" aria-expanded="false" aria-controls="c{{human.c-id}}">
-							{{human.display-name}}
+						<h2 class="accordion-header" id="h{{member.c-id}}">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c{{member.c-id}}" aria-expanded="false" aria-controls="c{{member.c-id}}">
+							{{member.display-name}}
 							</button>
 						</h2>
-						<div id="c{{human.c-id}}" class="accordion-collapse collapse" aria-labelledby="h{{human.c-id}}" data-bs-parent="#team_accordion">
+						<div id="c{{member.c-id}}" class="accordion-collapse collapse" aria-labelledby="h{{member.c-id}}" data-bs-parent="#team_accordion">
 							<div class="accordion-body">
-							{{human.content}}
+							{{member.content}}
 							</div>
 						</div>
 					</div>

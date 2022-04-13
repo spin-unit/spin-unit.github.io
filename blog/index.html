@@ -6,7 +6,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Ideas</title>
+		<title>Blog</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,22 +14,40 @@
 
 	<body>
 		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN Unit</a>
-		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
-		<span class="corner-nav-bl corner-content">
-			<a class="active" href="">Ideas</a>
+		<span class="corner-nav-tl corner-content">
+			<a class="active" href="">Blog</a>
 		</span>
+		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
+		<span class="corner-nav-bl corner-social noselect">
+			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
+			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
+			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
+		</span>
+
 
 		<div class="default-content flex internal-scroll">
     		<div class="default-box-xs left u-list" style="margin-top: 5vh;">
-				<h1>Ideas</h1>
+				<h1>Blog</h1>
 				<ul>
-					{% assign sorted = site.ideas | reverse %}
-    				{% for idea in sorted %}
-    				<li><a class="ul-style" href="{{idea.url}}">[{{idea.display-date}}]&nbsp; {{idea.title}}</a></li>
+					{% assign sorted = site.blogposts | reverse %}
+    				{% for blogpost in sorted %}
+    					{{% if blogpost.external == true %}}
+    						<li><a class="ul-style" target="_blank" href="{{idea.external_url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
+    					{{% elif blogpost.external == false %}}
+    						<li><a class="ul-style" href="{{idea.url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
+    					{{% endif %}}
     				{% endfor %}
 				</ul>
     		</div>
+
+    		{% assign sorted = site.reports | reverse %}
+    		{% for report_category in sorted %}
+    			<div class="default-box-xs left u-list" style="margin-top: 5vh;">
+					<h1>{{report_category.title}}</h1>
+					{{report_category.content}}
+    			</div>
+    		{% endfor %}
+
     	</div>
     	
 	</body>
