@@ -13,7 +13,7 @@
 	</head>
 
 	<body>
-		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		<a href="{{site.baseurl}}/blog" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
 		<span class="corner-nav-tl corner-content">
 			<a class="active" href="">{{page.title}}</a>
 		</span>
@@ -26,9 +26,8 @@
 
 		<div class="default-content flex internal-scroll noselect">
 
-			<div class="default-box-xs left" style="margin-top: 20vh">
-				<h1>{{page.title}}</h1>
-				<p>Author: {{page.author}} <br> Date: {{page.display-date}}</p>
+			<div class="default-box-xs left" style="margin-top: 10vh">
+				<p><b>Author:</b> {{page.author}} <br> <b>Date:</b> {{page.display-date}}</p>
 	    	</div>
 
 	    	<div class="default-box-xs left" style="margin-top: 2vh; margin-bottom: 5vh">

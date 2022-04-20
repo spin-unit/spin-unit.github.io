@@ -13,7 +13,7 @@
 	</head>
 
 	<body>
-		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+		<a href="../home" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
 		<span class="corner-nav-tl corner-content">
 			<a class="active" href="">Blog</a>
 		</span>
@@ -31,11 +31,11 @@
 				<ul>
 					{% assign sorted = site.blogposts | reverse %}
     				{% for blogpost in sorted %}
-    					{{% if blogpost.external == true %}}
-    						<li><a class="ul-style" target="_blank" href="{{idea.external_url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
-    					{{% elif blogpost.external == false %}}
-    						<li><a class="ul-style" href="{{idea.url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
-    					{{% endif %}}
+    					{% if blogpost.external_url %}
+    						<li><a class="ul-style" target="_blank" href="{{blogpost.external_url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
+    					{% else %}
+    						<li><a class="ul-style" href="{{blogpost.url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
+    					{% endif %}
     				{% endfor %}
 				</ul>
     		</div>
