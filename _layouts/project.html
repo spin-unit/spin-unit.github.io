@@ -13,10 +13,8 @@
 	</head>
 
 	<body>
+		<a href="../home" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
 		<a href="{{site.baseurl}}{{page.return_path}}" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<span class="corner-nav-tl corner-content">
-			<a class="active" href="">{{page.title}}</a>
-		</span>
 		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
 		<span class="corner-nav-bl corner-social noselect">
 			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
@@ -26,16 +24,23 @@
 
 		<div class="default-content flex internal-scroll noselect">
 
-			<div class="default-box-xs middle" style="margin-top: 20vh">
-				<h1>{{page.title}}</h1>
-				<p>{{page.description}}</p>
+			<div class="default-box-xs middle first-margin-l">
+				<p><b class="project-title-font">{{page.title}}</b><br>
+				{{page.year}} &bull; {{page.client}} &bull; {{page.place}}</p><br>
+				<img class="banner-img" src="{{site.baseurl}}{{page.cover-image}}">
 	    	</div>
 
-	    	<div class="default-box-xs middle" style="margin-top: 1vh; margin-bottom: 20vh">
-	    		<img src="{{site.baseurl}}{{page.cover-image}}">
+	    	<div class="default-box-xs left margin-about">
+	    		{{content}}
 	    	</div>
 
-	    	{{content}}
+	    	<div class="default-box-xs middle margin-about bottom-offset">
+	    		<p>
+		    		<b>Team Members:</b> {{page.team-members}}<br>
+		    		<b>Project Lead:</b> {{page.project-lead}}
+	    		</p>
+	    	</div>
+	    </div>
 	</body>
 
 

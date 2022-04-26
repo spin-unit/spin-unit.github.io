@@ -10,7 +10,7 @@ thumbnail: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
 cover-image: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
 external_url:
 return_path: /work/innovation
-description: Launching a high-street community in Jyväskylä.
+description: Organising a high-street community in Jyväskylä.
 ---
 
 

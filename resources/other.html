@@ -6,17 +6,15 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Blog</title>
+		<title>Other Resources</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
 	<body>
+		<a href="../home" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
 		<a href="../home" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<span class="corner-nav-tl corner-content">
-			<a class="active" href="">Blog</a>
-		</span>
 		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
 		<span class="corner-nav-bl corner-social noselect">
 			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
@@ -26,27 +24,10 @@
 
 
 		<div class="default-content flex internal-scroll">
-    		<div class="default-box-xs left u-list" style="margin-top: 5vh;">
-				<h1>Blog</h1>
-				<ul>
-					{% assign sorted = site.blogposts | reverse %}
-    				{% for blogpost in sorted %}
-    					{% if blogpost.external_url %}
-    						<li><a class="ul-style" target="_blank" href="{{blogpost.external_url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
-    					{% else %}
-    						<li><a class="ul-style" href="{{blogpost.url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
-    					{% endif %}
-    				{% endfor %}
-				</ul>
-    		</div>
 
-    		{% assign sorted = site.reports | reverse %}
-    		{% for report_category in sorted %}
-    			<div class="default-box-xs left u-list" style="margin-top: 5vh;">
-					<h1>{{report_category.title}}</h1>
-					{{report_category.content}}
-    			</div>
-    		{% endfor %}
+			<div class="default-box-s middle page-title">
+				<h1><a class="inactive" href="../resources">Ideas</a>, <a class="inactive" href="reports">Reports</a>, <a class="active" href="">Other</a></h1>
+    		</div>
 
     	</div>
     	

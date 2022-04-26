@@ -5,7 +5,7 @@ title:  Recentre Jyväskylä
 date: 2021-10-10
 display-date: October 10, 2021
 year: 2021
-return_path: /blog
+return_path: /resources
 external: false
 external_url: 
 ---

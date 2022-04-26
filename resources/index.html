@@ -6,33 +6,44 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Reports</title>
+		<title>Ideas</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
 	<body>
-		<a href="/" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="/" class="active corner-nav-tl corner-nav noselect">SPIN Unit</a>
+		<a href="../home" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
+		<a href="../home" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
 		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
-		<span class="corner-nav-bl corner-content">
-			<a class="active" href="">Reports</a>
+		<span class="corner-nav-bl corner-social noselect">
+			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
+			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
+			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
 		</span>
 
-		<div class="default-content flex internal-scroll" style="margin-bottom: 10vh">
 
-			{% assign sorted = site.reports | reverse %}
-    		{% for report_year in sorted %}
-    			<div class="default-box-xs left u-list" style="margin-top: 5vh;">
-					<h1>{{report_year.title}}</h1>
-					{{report_year.content}}
-    			</div>
-    		{% endfor %}
+		<div class="default-content flex internal-scroll">
 
+			<div class="default-box-s middle page-title">
+				<h1><a class="active" href="">Ideas</a>, <a class="inactive" href="reports">Reports</a>, <a class="inactive" href="other">Other</a></h1>
+    		</div>
+
+    		<div class="default-box-xs left u-list first-margin-about">
+    			<h1>Blog</h1>
+				<ul>
+					{% assign sorted = site.blogposts | reverse %}
+    				{% for blogpost in sorted %}
+    					{% if blogpost.external_url %}
+    						<li><a class="ul-style" target="_blank" href="{{blogpost.external_url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
+    					{% else %}
+    						<li><a class="ul-style" href="{{blogpost.url}}">{{blogpost.title}} &nbsp; [{{blogpost.display-date}}]</a></li>
+    					{% endif %}
+    				{% endfor %}
+				</ul>
+    		</div>
     	</div>
-
-
+    	
 	</body>
 	
 </html>
