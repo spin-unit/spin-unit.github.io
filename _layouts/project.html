@@ -26,20 +26,26 @@
 
 			<div class="default-box-xs middle first-margin-l">
 				<p><b class="project-title-font">{{page.title}}</b><br>
-				{{page.year}} &bull; {{page.client}} &bull; {{page.place}}</p><br>
+				{{page.year}} &bull; {{page.client}} &bull; {{page.place}}<br>
+				{{page.description}}</p><br>
 				<img class="banner-img" src="{{site.baseurl}}{{page.cover-image}}">
 	    	</div>
 
-	    	<div class="default-box-xs left margin-about">
+	    	<div class="default-box-xs middle margin-post">
+	    		<p><span class="project-question-font">{{page.question}}</span></p>
+	    	</div>
+
+	    	<div class="default-box-xs left margin-post">
 	    		{{content}}
 	    	</div>
 
-	    	<div class="default-box-xs middle margin-about bottom-offset">
+	    	<div class="default-box-xs middle bottom-offset">
 	    		<p>
 		    		<b>Team Members:</b> {{page.team-members}}<br>
 		    		<b>Project Lead:</b> {{page.project-lead}}
 	    		</p>
 	    	</div>
+
 	    </div>
 	</body>
 

@@ -126,6 +126,11 @@ html, body {
     line-height: 6rem;
 }
 
+.project-question-font {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
 ._404-nav {
     font-weight: 600;
     font-size: 20rem;
@@ -418,6 +423,10 @@ a.inactive:hover {
 
 .margin-project {
     margin-bottom: 15vh;
+}
+
+.margin-post {
+    margin-bottom: 5vh;
 }
 
 .float-r {

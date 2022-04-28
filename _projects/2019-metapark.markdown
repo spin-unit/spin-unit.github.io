@@ -14,6 +14,7 @@ cover-image: /assets/img/projects/2019-metapark/recentre-jyv.jpg
 external_url:
 return_path: /work/innovation
 description: A performance-based parking policy for Tallinn.
+question: 
 ---
 
 Ensuring a city’s success and innovations based on urban assets requires connections and proximities, urban density and diversity of activities. A city can grow economically and socially without expanding if it is capable of more densely concentrating capital, jobs and social interactions. From this perspective, the efficient organisation of car-parking, evading a substantial increase of required parking spaces, has wide consequences for Tallinn’s economic growth, social cohesion and quality of life.
