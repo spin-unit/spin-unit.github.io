@@ -25,23 +25,21 @@
 
 		<div class="default-content flex internal-scroll noselect">
 
-			<div class="default-box-s middle page-title">
+			<div class="default-box-s middle page-title first-margin-s">
 				<h1><a class="inactive" href="../space">Space</a>, <a class="active" href="">Events</a></h1>
     		</div>
 
 			{% assign sorted = site.events | reverse %}
 			{% assign i = 0 %}
     		{% for event in sorted %}
-  				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-  				{% if thecycle == 'odd' %}
-  					{% assign i = i | minus:1 %}
-    				<div class="default-box-s middle work-margin-m" style="z-index: {{i}}">
+  				{% if i == 0 %}
+  					{% assign i = i + 1%}
+    				<div class="default-box-s middle work-margin-m first-margin-l" style="z-index: {{i}}">
     					<img class="float-m" src="{{site.baseurl}}{{event.poster}}">
         				<h2><a href="{{event.event_url}}" target="_blank">{{event.title}}</a></h2><h3>{{event.description}}</h3><h3>{{event.place}}, {{event.display-date}}, {{event.display-start-time}} to {{event.display-end-time}}</h3>
     				</div>
-  				{% endif %}
-  				{% if thecycle == 'even' %}
-  					{% assign i = i | minus:1 %}
+  				{% else %}
+  					{% assign i = i + 1 %}
   					<div class="default-box-s middle work-margin-m" style="z-index: {{i}}">
     					<img class="float-m" src="{{site.baseurl}}{{event.poster}}">
         				<h2><a href="{{event.event_url}}" target="_blank">{{event.title}}</a></h2><h3>{{event.description}}</h3><h3>{{event.place}}, {{event.display-date}}, {{event.display-start-time}} to {{event.display-end-time}}</h3>

@@ -2,27 +2,29 @@
 layout: project
 title:  metaPARK
 id: metapark
-date: 2019-10-01
+date: 2019-05-19
 year: 2019
 client: City of Tallinn
-place: Tallinn
+place: Tallinn, Estonia
 team-members: 
 project-lead:
-categories: [innovation, featured]
-thumbnail: /assets/img/projects/2019-metapark/recentre-jyv.jpg
-cover-image: /assets/img/projects/2019-metapark/recentre-jyv.jpg
+categories: [data, featured]
+thumbnail: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-1.png
+cover-image: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-1.png
 external_url:
-return_path: /work/innovation
+return_path: /work/data
 description: A performance-based parking policy for Tallinn.
-question: 
+question: How to design a performance-based parking policy?
 ---
 
-Ensuring a city’s success and innovations based on urban assets requires connections and proximities, urban density and diversity of activities. A city can grow economically and socially without expanding if it is capable of more densely concentrating capital, jobs and social interactions. From this perspective, the efficient organisation of car-parking, evading a substantial increase of required parking spaces, has wide consequences for Tallinn’s economic growth, social cohesion and quality of life.
 
-![hello](/assets/img/projects/2019-metapark/recentre-jyv.jpg){:class="intext-img"}
 
-Searching for added value, metaPARK project views parking policy as an issue of urbanisation, quality-of-life and business, as a driver for better, more competitive and more pleasant Tallinn. 
+Ensuring a city’s success based on urban assets requires physical connections, proximities, urban density and a high diversity of activities. This usually comes with a heavy dose of space dedicated to parking vehicles, which, inversely to what is generally thought, can hinder local economic growth, social cohesion and the overall quality of life.
+metaPark aimed to draft a parking policy reform in Tallinn, harnessing the real economic value of parking space and returning it to the city. 
 
-Currently, the dominant man-made land use in Tallinn is dedicated to cars. The space for pedestrians seems substantial but the bare measurement of brutto area of uses does not speak for their qualities and performances. Yet, this data can be used to trigger positive change in the next policies and try to reduce the ratio of parking and street surfaces in favour of other sustainable uses.
+![hello](/assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-2.png){:class="intext-img"}
+
+We first embarked on the challenge to map each single parking space in the city, formal or not, by combining real-time parking data with satellite imagery and on-site surveys. This allowed measuring the actual occupancy rates of all paid-parking spots collected in real-time and proposing a data-informed policy reform. This data was made useful by turning it into an interactive tool for policy-makers to see the occupancy rate and pricing of each single parking place in the municipality. Such a map previously did not exist, as there was no coordination and data aggregation between private and public parking service providers.  
+
 
 
