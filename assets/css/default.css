@@ -327,7 +327,7 @@ a.inactive:hover {
 .default-box-s > p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     margin-bottom: 0.6rem;
     margin-top: 0px;
 }
@@ -356,7 +356,7 @@ a.inactive:hover {
 .default-box-l > p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     margin-bottom: 0.6rem;
     margin-top: 0px;
 }
@@ -385,7 +385,7 @@ a.inactive:hover {
 .default-box-xs > p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     margin-bottom: 0.6rem;
     margin-top: 0px;
 }
@@ -402,13 +402,13 @@ a.inactive:hover {
 }
 
 .ul-style {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #111;
     text-decoration: none;
 }
 
 .ul-style:hover {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #999;
     text-decoration: none;
 }
@@ -450,16 +450,16 @@ a.inactive:hover {
     text-decoration: none;
     font-weight: 300;
     color: #111;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
     }
 
 .list-a > a:hover {
     text-decoration: none;
     font-weight: 300;
     color: #999;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .list-a {
@@ -532,8 +532,8 @@ a.inactive:hover {
 
 .default-box-s > h2 {
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     margin-top: 0px;
     color: #999;
 }
@@ -626,7 +626,7 @@ button[aria-expanded="true"]{
 .accordion-button{
     background-color: #fff !important;
     color: #111 !important;
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
 }
@@ -708,7 +708,7 @@ button[aria-expanded="true"]{
     .home-text-nav {
         font-weight: 300;
         font-size: 1.3rem;
-        line-height: 1.6rem;
+        line-height: 1.8rem;
         color: #999;
         text-align: center;
     }
