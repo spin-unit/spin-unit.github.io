@@ -662,7 +662,7 @@ button[aria-expanded="true"]{
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .default-box-s {
         display: inline-block;
         width: 90vw;
@@ -686,13 +686,19 @@ button[aria-expanded="true"]{
     }
 
     .right > img {
-        max-width: 60%;
+        max-width: 75%;
         max-height: 100%;
         margin-bottom: 0.6rem;
     }
 
     .left > img {
-        max-width: 60%;
+        max-width: 75%;
+        max-height: 100%;
+        margin-bottom: 0.6rem;
+    }
+
+    .middle > img {
+        max-width: 75%;
         max-height: 100%;
         margin-bottom: 0.6rem;
     }
@@ -747,6 +753,7 @@ button[aria-expanded="true"]{
         margin-top: 0px;
         color: #111;
     }
+
 
     .margin-about {
         margin-bottom: 10vh;
