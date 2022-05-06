@@ -94,8 +94,8 @@ html, body {
 
 .home-text-nav {
     font-weight: 300;
-    font-size: 2.4rem;
-    line-height: 2.7rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
     color: #999;
     text-align: center;
 }
@@ -848,8 +848,8 @@ button[aria-expanded="true"]{
     }
 
     .large-font {
-    font-size: 3.5rem;
-}
+        font-size: 3.5rem;
+    }
 
 }
 
