@@ -327,7 +327,7 @@ a.inactive:hover {
 .default-box-s > p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-bottom: 0.6rem;
     margin-top: 0px;
 }
@@ -356,7 +356,7 @@ a.inactive:hover {
 .default-box-l > p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-bottom: 0.6rem;
     margin-top: 0px;
 }
@@ -385,7 +385,7 @@ a.inactive:hover {
 .default-box-xs > p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-bottom: 0.6rem;
     margin-top: 0px;
 }
@@ -634,8 +634,8 @@ button[aria-expanded="true"]{
 .accordion-body{
     background-color: #fff !important;
     color: #111 !important;
-    font-size: 1.2rem !important;
-    line-height: 1.4rem !important;
+    font-size: 1.3rem !important;
+    line-height: 1.6rem !important;
     font-weight: 300;
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
