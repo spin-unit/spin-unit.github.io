@@ -9,8 +9,8 @@ place: Jyväskylä
 team-members: 
 project-lead:
 categories: [innovation, featured]
-thumbnail: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
-cover-image: /assets/img/projects/2021-recentre-jyv/recentre-jyv.jpg
+thumbnail: /assets/img/projects/2021-recentre-jyv/recentre-jyv-2.jpg
+cover-image: /assets/img/projects/2021-recentre-jyv/recentre-jyv-2.jpg
 external_url:
 return_path: /work/innovation
 description: Organising a high-street community in Jyväskylä.
@@ -19,7 +19,7 @@ question: How do we give the high-street new life?
 
 Ensuring a city’s success and innovations based on urban assets requires connections and proximities, urban density and diversity of activities. A city can grow economically and socially without expanding if it is capable of more densely concentrating capital, jobs and social interactions. From this perspective, the efficient organisation of car-parking, evading a substantial increase of required parking spaces, has wide consequences for Tallinn’s economic growth, social cohesion and quality of life.
 
-![hello](/assets/img/projects/2019-metapark/recentre-jyv.jpg){:class="intext-img"}
+![hello](/assets/img/projects/2021-recentre-jyv/recentre-jyv-2.jpg){:class="intext-img"}
 
 Searching for added value, metaPARK project views parking policy as an issue of urbanisation, quality-of-life and business, as a driver for better, more competitive and more pleasant Tallinn. 
 
