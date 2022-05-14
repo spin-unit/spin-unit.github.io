@@ -3,6 +3,7 @@
 
 * {
     font-family: "Barlow", "Sans-Serif";
+    cursor: url('../img/core/cursor.svg'), auto; 
 }
 
 html, body {
@@ -107,9 +108,8 @@ html, body {
 }
 
 .home-text-nav > a:hover {
-	color: #111;
-    text-decoration: underline;
-    text-decoration-thickness: 0.1rem;
+	color: #999;
+    text-decoration: none;
 }
 
 .large-font {
