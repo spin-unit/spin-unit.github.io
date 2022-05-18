@@ -1,5 +1,6 @@
 ---
 title:  metaPARK
+host: City of Helsinki
 date: 2021-10-10
 year: "2021"
 return_path: /resources/publications
