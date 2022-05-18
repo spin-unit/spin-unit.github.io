@@ -245,6 +245,17 @@ body::-webkit-scrollbar {
     font-weight: 200;
 }
 
+.md-content > p > a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.md-content > p > a:hover {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+
 .intext-img {
     max-width: 100%;
     width: 100%;
@@ -373,7 +384,7 @@ body::-webkit-scrollbar {
 }
 
 .extra-bold-weight {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 
