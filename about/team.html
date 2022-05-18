@@ -13,66 +13,53 @@
 	</head>
 
 	<body>
-		<a href="../home" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
-		<a href="../home" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
-		<span class="corner-nav-bl corner-social noselect">
-			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
-		</span>
+		<span class="corner-nav-tl corner-nav noselect">
+	        <a class="" href="{{site.baseurl}}/home">SPIN Unit</a>
+ 		</span>
+		<a href="{{site.baseurl}}/home" class="active corner-nav-tr-x corner-nav noselect">&#x2715;&#xFE0E;</a>
+		<span class="corner-nav-bl corner-nav noselect">
+          <a class="active" href="{{site.baseurl}}/about">About</a> &nbsp;
+          <a class="" href="{{site.baseurl}}/resources">Resources</a> &nbsp;
+          <a class="" href="{{site.basurl}}/latest">Latest</a>
+   		 </span>
+		<span class="corner-nav-br corner-nav noselect">
+	        <a class="" href="mailto: spin@spinunit.eu">Email &#8599;&#xFE0E;</a>
+ 		</span>
 
-		<div class="default-content flex internal-scroll">
+		<div class="default-content">
 
-			<div class="default-box-s middle page-title first-margin-s">
-				<h1><a class="inactive" href="../about">About</a>, <a class="active" href="">Team</a></h1>
-    		</div>
-
-			<div class="default-box-s margin-about first-margin-l">
-				<h1>Team</h1>
-				<p>Our core team is made up of 6 people. We have different life stories, futures, skill sets, and interests, but all of us share a passion for SPIN, our work, and bringing the best out of each other.</p>
-				<div class="accordion" id="team_accordion" style="margin-top: 4vh">
-					{% assign teammembers = site.team | sample:6 %}
-					{% for member in teammembers %}
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="h{{member.c-id}}">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c{{member.c-id}}" aria-expanded="false" aria-controls="c{{member.c-id}}">
-							{{member.display-name}}
-							</button>
-						</h2>
-						<div id="c{{member.c-id}}" class="accordion-collapse collapse" aria-labelledby="h{{member.c-id}}" data-bs-parent="#team_accordion">
-							<div class="accordion-body">
-							{{member.content}}
-							</div>
-						</div>
-					</div>
-					{% endfor %}
+			<div class="page-container padding-top padding-bottom padding-side margin-top">
+				<div class="col-75 col-float-middle col-content">
+					<p class="page-nav text-align-center block"><a class="" href="{{site.baseurl}}/about">About</a> &bull; <a class="active" href="team">Team</a></p>
 				</div>
 			</div>
 
-			<div class="default-box-s margin-about">
-				<h1>Network of Collaborators</h1>
-				<p>Our network of collaborators cuts across disciplines, enabling us to achieve more together.</p>
-				<p class="list-a">
-					<a href="#" target="_blank">Bill Clinton</a>&nbsp; — &nbsp;<a href="#" target="_blank">Damiano Cerrone</a>&nbsp; — &nbsp;<a href="#" target="_blank">Barack Obama</a><br>
-					<a href="#" target="_blank">Human Man</a>&nbsp; — &nbsp;<a href="#" target="_blank">Man Gu</a>&nbsp; — &nbsp;<a href="#" target="_blank">Bonjour Friend</a><br>
-					<a href="#" target="_blank">Human Woman</a>&nbsp; — &nbsp;<a href="#" target="_blank">Towards Nothing</a>&nbsp; — &nbsp;<a href="#" target="_blank">Friends Forever</a><br>
-				</p>
+			<div class="page-container padding-top padding-bottom padding-side margin-top">
+				<div class="col-50 col-float-middle col-content">
+					<p class="content-title block">Team</p>
+					<p class="content-description block">Our core team is made up of 6 people. We have different life stories, futures, skill sets, and interests, but all of us share a passion for SPIN, our work, and bringing the best out of each other.</p>
+				</div>
 			</div>
 
-			<div class="default-box-s margin-about">
-				<h1>Alumni</h1>
-				<p>We are nothing without our past.</p>
-				<p class="list-a">
-					<a href="#" target="_blank">Bill Clinton</a>&nbsp; — &nbsp;<a href="#" target="_blank">Damiano Cerrone</a>&nbsp; — &nbsp;<a href="#" target="_blank">Barack Obama</a><br>
-					<a href="#" target="_blank">Human Man</a>&nbsp; — &nbsp;<a href="#" target="_blank">Man Gu</a>&nbsp; — &nbsp;<a href="#" target="_blank">Bonjour Friend</a><br>
-					<a href="#" target="_blank">Human Woman</a>&nbsp; — &nbsp;<a href="#" target="_blank">Towards Nothing</a>&nbsp; — &nbsp;<a href="#" target="_blank">Friends Forever</a><br>
-				</p>
+			<div class="page-container padding-top padding-bottom padding-side">
+				<div class="col-50 col-float-middle col-content">
+					<p class="content-title block">Network</p>
+					<p class="content-description block">Our experimental education and community space in Helsinki, located in the Punavuori district.</p>
+				</div>
+			</div>
+
+			<div class="page-container padding-top padding-bottom padding-side margin-bottom">
+				<div class="col-50 col-float-middle col-content">
+					<p class="content-title block">Alumni</p>
+					<p class="content-description block">Our experimental education and community space in Helsinki, located in the Punavuori district.</p>
+				</div>
 			</div>
 
 
 		</div>
+
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 	</body>
 	
 </html>

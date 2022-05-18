@@ -13,25 +13,35 @@
 	</head>
 
 	<body>
-		<a href="{{site.baseurl}}/home" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
-		<a href="{{site.baseurl}}/resources" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
-		<span class="corner-nav-bl corner-social noselect">
-			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
-		</span>
+		<span class="corner-nav-tl corner-nav noselect">
+	        <a class="" href="{{site.baseurl}}/home">SPIN Unit</a>
+ 		</span>
+		<a href="{{site.baseurl}}{{page.return_path}}#{{page.year}}" class="active corner-nav-tr-x corner-nav noselect">&#x2715;&#xFE0E;</a>
+		<span class="corner-nav-bl corner-nav noselect">
+          <a class="" href="{{site.baseurl}}/about">About</a> &nbsp;
+          <a class="active" href="{{site.baseurl}}/resources">Resources</a> &nbsp;
+          <a class="" href="{{site.basurl}}/latest">Latest</a>
+   		 </span>
+		<span class="corner-nav-br corner-nav noselect">
+	        <a class="" href="mailto: spin@spinunit.eu">Email &#8599;&#xFE0E;</a>
+ 		</span>
 
-		<div class="default-content flex internal-scroll">
+		<div class="default-content">
 
-			<div class="default-box-xs left first-margin-s noselect">
-				<p><b class="blog-title-font">{{page.title}}</b><br><b>Author:</b> {{page.author}} <br><b>Date:</b> {{page.display-date}}</p>
-				<br>
-	    	</div>
+			<div class="page-container padding-top padding-bottom padding-side margin-top">
+				<div class="col-50 col-float-middle col-content">
+					<p class="page-title text-align-left block">{{page.title}}</p>
+					<p class="page-title-description-s text-align-left block">{{page.author}} &bull; {{page.display-date}}</p>
+					<p class="page-title-description text-align left block">{{page.description}}</p>
+				</div>
+			</div>
 
-	    	<div class="default-box-xs left bottom-offset">
-	    		{{content}}
-	    	</div>
+	    	<div class="page-container padding-top padding-bottom padding-side">
+				<div class="col-50 col-float-middle md-content">
+					{{content}}
+				</div>
+			</div>
+
 	    </div>
 	</body>
 

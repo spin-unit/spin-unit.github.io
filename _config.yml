@@ -62,9 +62,13 @@ collections:
   reports:
     output: true
     permalink: /reports/:path/
-  blogposts:
+  blog:
     output: true
-    permalink: /blogposts/:path/
-  events:
+    permalink: /blog/:path/
+  publications:
     output: true
-    permalink: /events/:path/
+    permalink: /other_media/:path/
+  latest_items:
+    output: true
+    permalink: /news_items/:path/
+

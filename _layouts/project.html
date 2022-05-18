@@ -13,41 +13,60 @@
 	</head>
 
 	<body>
-		<a href="{{site.baseurl}}/home" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
-		<a href="{{site.baseurl}}{{page.return_path}}#{{page.id}}" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
-		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
-		<span class="corner-nav-bl corner-social noselect">
-			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
-		</span>
+		<span class="corner-nav-tl corner-nav noselect">
+	        <a class="" href="{{site.baseurl}}/home">SPIN Unit</a>
+ 		</span>
+		<a href="{{site.baseurl}}{{page.return_path}}#{{page.id}}" class="active corner-nav-tr-x corner-nav noselect">&#x2715;&#xFE0E;</a>
+		<span class="corner-nav-bl corner-nav noselect">
+          <a class="" href="{{site.baseurl}}/about">About</a> &nbsp;
+          <a class="" href="{{site.baseurl}}/resources">Resources</a> &nbsp;
+          <a class="" href="{{site.basurl}}/latest">Latest</a>
+   		 </span>
+		<span class="corner-nav-br corner-nav noselect">
+	        <a class="" href="mailto: spin@spinunit.eu">Email &#8599;&#xFE0E;</a>
+ 		</span>
 
-		<div class="default-content flex internal-scroll">
+		<div class="default-content">
 
-			<div class="default-box-xs prj-middle first-margin-m margin-post-l noselect">
-				<p><b class="project-title-font">{{page.title}}</b><br><br>
-				{{page.year}} &bull; {{page.client}} &bull; {{page.place}}<br>
-				{{page.description}}</p><br>
-				<img class="banner-img" src="{{site.baseurl}}{{page.cover-image}}">
-	    	</div>
+			<div class="page-container padding-top padding-bottom padding-side margin-top">
+				<div class="col-50 col-float-middle col-content">
+					<p class="page-title text-align-center block">{{page.title}}</p>
+					<p class="page-title-description-s text-align-center block">{{page.year}} &bull; {{page.client}} &bull; {{page.place}}</p>
+					<p class="page-title-description text-align-center block">{{page.description}}</p>
+				</div>
+			</div>
 
-	    	<div class="default-box-xs prj-middle margin-post-l">
-	    		<p><span class="project-question-font">{{page.question}}</span></p>
-	    	</div>
+			<div class="page-container padding-bottom padding-side">
+				<div class="col-75 col-float-middle col-content">
+					<img src="{{site.baseurl}}{{page.cover-image}}">
+				</div>
+			</div>
 
-	    	<div class="default-box-xs left margin-post-l">
-	    		{{content}}
-	    	</div>
+			<div class="page-container padding-top padding-bottom padding-side">
+				<div class="col-50 col-float-middle col-content">
+					<p class="page-question block">{{page.question}}</p>
+				</div>
+			</div>
 
-	    	<div class="default-box-xs middle bottom-offset">
-	    		<p>
-		    		<b>Team Members:</b> {{page.team-members}}<br>
-		    		<b>Project Lead:</b> {{page.project-lead}}<br>
-		    		<b>Project Partners:</b> {{page.project-partners}}
-	    		</p>
-	    	</div>
 
-	    </div>
+			<div class="page-container padding-top padding-bottom padding-side">
+				<div class="col-50 col-float-middle md-content">
+					{{content}}
+				</div>
+			</div>
+
+			<div class="page-container padding-top padding-bottom margin-top margin-bottom border-top">
+				<div class="col-50 col-float-middle col-content">
+					<p class="page-credits text-align-left block">
+						<b>Team Members:</b> {{page.team-members}}<br><br>
+			    		<b>Project Lead:</b> {{page.project-lead}}<br><br>
+			    		<b>Project Partners:</b> {{page.project-partners}}
+			    	</p>
+				</div>
+			</div>
+
+    	</div>
+
 	</body>
 
 

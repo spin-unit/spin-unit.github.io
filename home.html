@@ -1,31 +1,69 @@
 <!DOCTYPE html>
+
 <html>
 
-	<head>
-		<meta charset="utf-8">
-		<title>SPIN Unit</title>
-		<link rel="stylesheet" href="assets/css/default.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
+  <head>
 
-	<body>
-		<a href="" class="active corner-nav-tl corner-nav noselect">SPIN UNIT</a>
-		<a href="mailto: spin@spinunit.eu" target="_blank" class="active corner-nav-br corner-nav noselect">Contact </a>
-		<a href="resources" class="active corner-nav-tr corner-nav noselect">Resources</a>
-		<span class="corner-nav-bl corner-social noselect">
-			<a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>&nbsp;
-			<a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>&nbsp;
-		</span>
+    <meta charset="utf-8"/>
+    <title>SPIN Unit</title>
+    <link rel="stylesheet" href="./assets/css/default.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-		<div class="main-container noselect">
-			<div class="first-image"><img class="no-pointer-events" src="assets/img/core/black-logo.svg"></div>
-			<div class="text-wrap">
-				<h1 class="home-text-nav">
-					<a class="large-font" href="about">SPIN Unit</a> Research & Innovation Lab<br> in a <a target="_blank" href="https://www.realspace.community">Real Space&#8599;&#xFE0E;</a> in the heart of Helsinki.<br><br> <a href="work/data">Making Data Meaningful</a> <span class="bull">&bull;</span><span class="break"><br></span> <a href="work/innovation">Innovating Interactions</a> <span class="bull">&bull;</span><span class="break"><br></span> <a href="work/education">Advancing Education</a>
-				</h1>
-			</div>
-		</div>
-	</body>
-	
+  </head>
+
+  <body>
+    <span class="corner-nav-bl corner-nav noselect">
+          <a class="" href="about">About</a> &nbsp;
+          <a class="" href="resources">Resources</a> &nbsp;
+          <a class="" href="latest">Latest</a>
+    </span>
+     <span class="corner-nav-br corner-nav noselect">
+          <a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a> &nbsp;
+          <a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a> &nbsp;
+          <a href="https://www.linkedin.com/company/spatial-intelligence-unit" target="_blank">Linkedin &#8599;&#xFE0E;</a>
+    </span>
+
+    <div class="default-content">
+
+      <div class="page-container padding-bottom padding-side padding-top">
+        <div class="col-100 col-float-left col-content">
+          <span class="p-nav-text regular-weight"><a class="highlight" href="about">SPIN Unit</a> is an Urban Research & Innovation Lab. In our work, we <a id="text-data" class="highlight" href="work/data">make data meaningful</a>, <a id="text-innovation" class="highlight" href="work/innovation">innovate urban interactions</a>, and <a id="text-education" class ="highlight" href="work/education">advance urban education</a>. We also coordinate a <a class="highlight" target="_blank"href="https://realspace.community">Real Space</a> in the heart of Helsinki.</span>
+        </div>
+      </div>
+
+
+      <div class="page-container padding-side padding-top margin-bottom">
+        <div class="col-33 col-float-left col-content padding-right padding-top">
+          <a href="work/data"><img id="img-data" class="default-greyed-img" src="/assets/img/core/circle-1.png"></a>
+        </div>
+        <div class="col-33 col-float-left col-content padding-right padding-top">
+          <a href="work/innovation"><img id="img-innovation" class="default-greyed-img" src="/assets/img/core/circle-2.png"></a>
+        </div>
+        <div class="col-33 col-float-left col-content padding-top">
+          <a href="work/education"><img id="img-education" class="default-greyed-img" src="/assets/img/core/circle-3.png"></a>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+
+      const array = ["data", "innovation", "education"];
+
+      array.forEach(function (item, index) {
+        $('#text-'.concat(item)).hover(function(){ 
+          $('#img-'.concat(item)).toggleClass('reset-img');
+        });
+
+        $('#img-'.concat(item)).hover(function(){ 
+          $('#text-'.concat(item)).toggleClass('highlight-active');
+         });
+    
+      });
+
+    </script>
+
+
+  </body>
+
 </html>
