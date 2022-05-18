@@ -156,6 +156,11 @@ body::-webkit-scrollbar {
     padding-left: 1.25rem;
 }
 
+.padding-side-xl {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
 .padding-right {
     padding-right: 1.25rem;
 }
@@ -179,6 +184,7 @@ body::-webkit-scrollbar {
 .border-top {
     border-top: 1px solid #000;
 }
+
 
 
 
@@ -224,7 +230,7 @@ body::-webkit-scrollbar {
 
 .md-content > p > em {
     margin-top: 0rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 200;
 }
 
@@ -236,15 +242,15 @@ body::-webkit-scrollbar {
 }
 
 .page-title {
-    font-size: 3.8rem;
-    line-height: 3.8rem;
-    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    margin-bottom: 0.4rem;
 }
 
 .page-nav {
     font-size: 2.5rem;
     line-height: 2.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
 }
 
 .page-nav > a {
@@ -301,7 +307,7 @@ body::-webkit-scrollbar {
 .content-title {
     font-size: 2.5rem;
     line-height: 2.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     font-weight: 400;
 }
 
@@ -369,9 +375,9 @@ body::-webkit-scrollbar {
 
 .project-title {
     display: block;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin-bottom: 0.25rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 0.4rem;
     font-weight: 400;
 }
 
@@ -387,16 +393,16 @@ body::-webkit-scrollbar {
 
 .project-description {
     display: block;
-    font-size: 0.9rem;
-    line-height: 0.9rem;
+    font-size: 1rem;
+    line-height: 1rem;
     margin-bottom: 0.25rem;
     font-weight: 400;
 }
 
 .project-sub-description {
     display: block;
-    font-size: 0.9rem;
-    line-height: 0.9rem;
+    font-size: 1rem;
+    line-height: 1rem;
     margin-bottom: 0.25rem;
     font-weight: 200;
 }
@@ -432,9 +438,9 @@ body::-webkit-scrollbar {
 
 .highlight {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-thickness: 0.1rem;
-    text-underline-offset: 0.15rem;
+    font-weight: 500;
 }
 
 .highlight:hover {
@@ -453,8 +459,8 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 1.25rem;
   right: 1.25rem;
-  font-size: 1.1rem;
-  line-height: 1.1rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .corner-nav-bl {
@@ -462,8 +468,8 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 1.25rem;
   left: 1.25rem;
-  font-size: 1.1rem;
-  line-height: 1.1rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .corner-nav-tl {
@@ -471,8 +477,8 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 1.25rem;
   left: 1.25rem;
-  font-size: 1.1rem;
-  line-height: 1.1rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .corner-nav-tr-x {
