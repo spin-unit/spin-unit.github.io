@@ -25,7 +25,7 @@ For this project, we have teamed up with Linnalabor to innovate interactions bet
 This vision of Narva became a strategic document that will help planners and designers to align their ideas with the ones from the youth.
 
 ![ReCenter Narva 1](/assets/img/projects/2020-recenter-narva/SPIN-Unit-2020-recenter-narva-1.jpg){:class="intext-img"}
-*The collective mental map of the city.*
+*Youth vision.*
 
 ---
 
