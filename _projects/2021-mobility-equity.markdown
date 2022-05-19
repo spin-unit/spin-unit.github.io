@@ -47,8 +47,6 @@ The relationships between performance and demand revealed a clear divide between
 
 &#8599;&#xFE0E; A keynote in Estonian [is available here](https://drive.google.com/file/d/1qfJcl1K8DYe3_vszzmjSieLRDVoH0Hru/view?usp=sharing){:target="_blank"}
 
-https://drive.google.com/file/d/14u_0h7OC5hllruVc6wxH0VCew6pYYuXB/view?usp=sharing
-
 ---
 
 ### Media
