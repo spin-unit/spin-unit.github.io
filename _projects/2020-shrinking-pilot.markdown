@@ -10,8 +10,8 @@ team-members: Damiano Cerrone, John Hadaway, Kristjan Männigo
 project-lead: Damiano Cerrone
 project-partners: TalTech
 categories: [data, featured]
-thumbnail: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-1.png
-cover-image: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-1.png
+thumbnail: /assets/img/projects/2020-shrinking-pilot/2020-Shrinking-pilot-0.jpg
+cover-image: /assets/img/projects/2020-shrinking-pilot/2020-Shrinking-pilot-2.png
 external_url:
 return_path: /work/data
 description: A resaerch pilot to explore new data sources to map building vacancies.
@@ -24,9 +24,6 @@ A year later, we initiated a research pilot for the Estonian Ministry of Finance
 
 Our team dived into all available data sources and eventually produced a methodology for making electricity consumption data meaningful to mapping vacancy rates.
 
-![Shrinking cities pilot 2](/assets/img/projects/2020-Shrinking-pilot/2020-Shrinking-pilot-2.png){:class="intext-img"}
-*Calculating vacancy rates using electricity consumption data.*
-
 This pilot revealed that building vacancy reached an alarming rate of 25%, and highly vacant buildings tended to cluster. Moreover, areas with increasingly empty buildings were characterised by historic houses with cultural, architectural and natural significance.
 
 ![Shrinking cities pilot 1](/assets/img/projects/2020-Shrinking-pilot/2020-Shrinking-pilot-1.png){:class="intext-img"}
@@ -35,6 +32,6 @@ This pilot revealed that building vacancy reached an alarming rate of 25%, and h
 
 Currently we don’t have an English version of this report. If you want to know more about this project, you can book time for a presentation [here](https://fantastical.app/damianocerrone/meeting-op) or write to kristi@spinunit.org
 
-
+---
 
 &#8599;&#xFE0E; The report in Estonian [is available here](https://drive.google.com/file/d/1tgNreNvfE8bTjCNbHwIYKzTQWrNHLT8h/view?usp=sharing){:target="_blank"}
