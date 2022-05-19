@@ -29,6 +29,8 @@ This vision of Narva became a strategic document that will help planners and des
 
 ---
 
+### Reports
+
 &#8599;&#xFE0E; The youth vision poster is available [on high-resolution here](https://drive.google.com/file/d/1MqWygx5x_B1rBMniLD8IhqJ0p_UR2FYt/view?usp=sharing){:target="_blank"}.
 
 &#8599;&#xFE0E; Executive summary in Estonian [Tajuuuring kokkuvõte](https://drive.google.com/file/d/1MqWygx5x_B1rBMniLD8IhqJ0p_UR2FYt/view?usp=sharing){:target="_blank"}.
