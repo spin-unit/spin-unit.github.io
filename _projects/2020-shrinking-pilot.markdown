@@ -26,7 +26,7 @@ Our team dived into all available data sources and eventually produced a methodo
 
 This pilot revealed that building vacancy reached an alarming rate of 25%, and highly vacant buildings tended to cluster. Moreover, areas with increasingly empty buildings were characterised by historic houses with cultural, architectural and natural significance.
 
-![Shrinking cities pilot 1](/assets/img/projects/2020-Shrinking-pilot/2020-Shrinking-pilot-1.png){:class="intext-img"}
+![Shrinking cities pilot 1](/assets/img/projects/2020-shrinking-pilot/2020-Shrinking-pilot-1.png){:class="intext-img"}
 *Number of vacant dwellings by building typology.*
 
 
