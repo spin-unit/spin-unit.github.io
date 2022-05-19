@@ -10,8 +10,8 @@ team-members: Damiano Cerrone, John Hadaway, Kristjan Männigo, TalTech
 project-lead: Damiano Cerrone
 project-partners: TalTech
 categories: [data, featured]
-thumbnail: /assets/img/projects/2019-metapark/SPIN-Unit-2022-shrinkingcities-0.png
-cover-image: /assets/img/projects/2019-metapark/SPIN-Unit-2022-shrinkingcities-0.png
+thumbnail: /assets/img/projects/2022-shrinking-national-study/SPIN-Unit-2022-shrinkingcities-0.png
+cover-image: /assets/img/projects/2022-shrinking-national-study/SPIN-Unit-2022-shrinkingcities-0.png
 external_url:
 return_path: /work/data
 description: Producing the national map of shrinkage in Estonia with fine-grained electricity and population-registry data.
