@@ -10,7 +10,7 @@ team-members: Damiano Cerrone, Kristj Grišakov, Iñigo Lorente Riverola, Kristj
 project-lead: Damiano Cerrone
 project-partners:
 categories: [data, featured]
-thumbnail: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-0.png
+thumbnail: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-0.jpg
 cover-image: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-1.jpg
 external_url:
 return_path: /work/data
@@ -22,7 +22,7 @@ Ensuring a city’s success based on urban assets requires physical connections,
 
 > metaPark aimed to draft a parking policy reform in Tallinn, harnessing the real economic value of parking space and returning it to the city. 
 
-![Parking normative](/assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-2.png){:class="intext-img"}
+![Parking normative](/assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-2.jpg){:class="intext-img"}
 *Extract from the digital parking map of Tallinn.*
 
 We first embarked on the challenge to map each single parking space in the city, formal or not, by combining real-time parking data with satellite imagery and on-site surveys. This allowed measuring the actual occupancy rates of all paid-parking spots using mobile payment data to draft a data-informed policy reform. This data was made useful by turning it into an interactive tool for policy-makers to see the occupancy rate and pricing of each single parking place in the municipality. Such a map previously did not exist, as there was no coordination and data aggregation between private and public parking service providers.
