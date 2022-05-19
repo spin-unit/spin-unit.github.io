@@ -31,7 +31,7 @@ Our policy proposal was the establishment of the Active Transit Area (ATA), defi
 
 > The logic is rather simple: if public transit and fast and conveniente, you pay for parking.
 
-![Parking normative](/assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-3.png){:class="intext-img"}
+![Parking normative](/assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-3.jpg){:class="intext-img"}
 *The Active Transit Area in Tallinn to define the pay-parking zone.*
 
 The more the public transport will be accessible and efficient, the larger the Active Transit Area will be. The ATA is also used in planning law to set parking caps. The parking requirements for new projects within the ATA will be capped. For developments prjects outside the ATA the minimum parking requirements are lifted to use market dynamics determine their number and price.**This generates a self-reinforcing loop: the more the city invests on public transport – the more efficient it is.**
