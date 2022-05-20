@@ -25,7 +25,7 @@ Ensuring a city’s success based on urban assets requires physical connections,
 ![Parking normative](/assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-2.jpg){:class="intext-img"}
 *Extract from the digital parking map of Tallinn.*
 
-We first embarked on the challenge to map each single parking space in the city, formal or not, by combining real-time parking data with satellite imagery and on-site surveys. This allowed measuring the actual occupancy rates of all paid-parking spots using mobile payment data to draft a data-informed policy reform. This data was made useful by turning it into an interactive tool for policy-makers to see the occupancy rate and pricing of each single parking place in the municipality. Such a map previously did not exist, as there was no coordination and data aggregation between private and public parking service providers.
+We first embarked on the challenge to map each single parking space in the city, formal or not, by combining real-time parking data with satellite imagery and on-site surveys. **We made data meaningful by transforming mobile payment data into parking occupancy rates of all paid-parking spots in Tallinn**. This was later used to draft a data-informed policy reform. This data was made useful by turning it into an interactive tool for policy-makers to see the occupancy rate and pricing of each single parking place in the municipality. Such a map previously did not exist, as there was no coordination and data aggregation between private and public parking service providers.
 
 Our policy proposal was the establishment of the Active Transit Area (ATA), defined as the area where public transport is the most accessible and efficient.
 

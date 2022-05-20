@@ -22,7 +22,7 @@ In 2018 the Ministry of Finance started to received dozens unwanted apartments o
 
 A year later, we initiated a research pilot for the Estonian Ministry of Finance in East Estonia (Ida Viru region) to design a methodology to map shrinkage and evaluate its risks to socio-economic development. Our core objective was to find a reliable data source to understand vacancies at the building level.
 
-Our team dived into all available data sources and eventually produced a methodology for making electricity consumption data meaningful to mapping vacancy rates.
+Our team dived into all available data sources and eventually **produced a methodology for making electricity consumption data meaningful to mapping vacancy rates.**
 
 This pilot revealed that building vacancy reached an alarming rate of 25%, and highly vacant buildings tended to cluster. Moreover, areas with increasingly empty buildings were characterised by historic houses with cultural, architectural and natural significance.
 

@@ -26,8 +26,7 @@ Together with Demos Helsinki, we have compiled a “Mobility justice handbook”
 *GTFS analysis of public transit performance.*
 
 
-A mobility equity map is designed by combining public transit performance and potential demand. The more distributed the service performance and potential demand, the higher mobility equity is across the region. 
-Service performance is an index that relies on GTFS, route delays and passenger count data.
+**We contributed to the goal of making data meaningful by turning unstructured GTFS data into the a regional mobility equity map.** This cartography is designed by combining public transit performance and potential demand. The more distributed the service performance and potential demand, the higher mobility equity is across the region.  Service performance is an index that relies on GTFS, route delays and passenger count data.
 Potential demand is an index that relies on the National database of the built environment, census data and qualitative observations of points-of-interest data.
 
 The relationships between performance and demand revealed a clear divide between the high-quality service provided in Tallinn and the lower service performance present in all other municipalities. In the long term, this can increase social inequalities between the capital city and its commuter belt, grow the urban/rural divide, and incentivise the use of cars for daily commuting.
