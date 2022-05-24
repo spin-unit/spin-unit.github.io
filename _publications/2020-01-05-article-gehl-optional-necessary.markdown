@@ -1,5 +1,5 @@
 ---
-title:  Optional and necessary activities: operationalising Jan Gehl’s analysis of urban space with Foursquare data.
+title:  "Optional and necessary activities: operationalising Jan Gehl’s analysis of urban space with Foursquare data."
 host: Inderscience Publishers
 date: 2020-01-05
 year: "2020"

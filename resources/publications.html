@@ -30,7 +30,10 @@
 
 			<div class="page-container padding-top padding-bottom padding-side margin-top">
 				<div class="col-75 col-float-middle col-content">
+					<!---
 					<p class="page-nav text-align-center block"><a class="" href="{{site.basurl}}/resources">Conjectures</a> &bull; <a class="" href="reports">Reports</a> &bull; <a class="active" href="">Publications</a></p>
+					--->
+					<p class="page-nav text-align-center block"><a class="" href="{{site.basurl}}/resources">Reports</a> &bull; <a class="active" href="">Publications</a></p>
 				</div>
 			</div>
 
@@ -46,9 +49,9 @@
 							{% assign publications_year = site.publications | where_exp: 'publication', "publication.year contains year_" %}
 							{% for publication in publications_year %}{% if publication.year == year_ %}
 								{% if publication.external_url %}
-									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a><br>
+									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a>
 								{% else %}
-									<a class="psuedo-list" href="{{post.url}}">{{publication.title}} ({{publication.host}})</a><br>
+									<a class="psuedo-list" href="{{post.url}}">{{publication.title}}</a>
 								{% endif %}
 							{% endif %}{% endfor %}
 							</p>
@@ -59,12 +62,12 @@
 						<div class="col-50 col-float-middle col-content">
 							<p class="content-title block">{{year_}}</p>
 							<p class="content-description block">
-							{% assign publications_year = site.other_publications | where_exp: 'publication', "publication.year contains year_" %}
+							{% assign publications_year = site.publications | where_exp: 'publication', "publication.year contains year_" %}
 							{% for publication in publications_year %}{% if publication.year == year_ %}
 								{% if publication.external_url %}
-									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{publication.title}} ({{publication.host}})&#8599;&#xFE0E;</a><br>
+									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a>
 								{% else %}
-									<a class="psuedo-list" href="{{post.url}}">{{publication.title}}</a><br>
+									<a class="psuedo-list" href="{{post.url}}">{{publication.title}}</a>
 								{% endif %}
 							{% endif %}{% endfor %}
 							</p>

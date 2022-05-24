@@ -1,5 +1,5 @@
 ---
-title:  What do we talk about when we talk about shrinkage? [EST]
+title: What do we talk about when we talk about shrinkage? [EST]
 host: SIRP
 date: 2022-04-08
 year: "2022"

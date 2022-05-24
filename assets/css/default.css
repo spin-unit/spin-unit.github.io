@@ -347,6 +347,9 @@ body::-webkit-scrollbar {
   text-decoration: none;
   color: #000;
   font-weight: 300;
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .psuedo-list:hover {
