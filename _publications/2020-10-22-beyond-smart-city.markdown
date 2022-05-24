@@ -4,5 +4,5 @@ host: E-Residency program
 date: 2020-10-22
 year: "2020"
 return_path: /resources/publications
-external_url: beyond smart cities
+external_url: https://www.e-resident.gov.ee/blog/posts/beyond-smart-cities
 ---

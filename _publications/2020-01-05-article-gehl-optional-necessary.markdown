@@ -4,5 +4,5 @@ host: Inderscience Publishers
 date: 2020-01-05
 year: "2020"
 return_path: /resources/publications
-external_url: http://www.inderscience.com/storage/f312107114158962.pdf
+external_url: https://www.inderscience.com/storage/f312107114158962.pdf
 ---
