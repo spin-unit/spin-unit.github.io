@@ -49,9 +49,9 @@
 							{% assign publications_year = site.publications | where_exp: 'publication', "publication.year contains year_" %}
 							{% for publication in publications_year %}{% if publication.year == year_ %}
 								{% if publication.external_url %}
-									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a>
+									<a class="psuedo-list" href="{{publication.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a><br>
 								{% else %}
-									<a class="psuedo-list" href="{{post.url}}">{{publication.title}}</a>
+									<a class="psuedo-list" href="{{publication.url}}">{{publication.title}}</a><br>
 								{% endif %}
 							{% endif %}{% endfor %}
 							</p>
@@ -65,9 +65,9 @@
 							{% assign publications_year = site.publications | where_exp: 'publication', "publication.year contains year_" %}
 							{% for publication in publications_year %}{% if publication.year == year_ %}
 								{% if publication.external_url %}
-									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a>
+									<a class="psuedo-list" href="{{publication.external_url}}" target="_blank">{{publication.title}} &#8599;&#xFE0E;</a><br>
 								{% else %}
-									<a class="psuedo-list" href="{{post.url}}">{{publication.title}}</a>
+									<a class="psuedo-list" href="{{publication.url}}">{{publication.title}}</a><br>
 								{% endif %}
 							{% endif %}{% endfor %}
 							</p>

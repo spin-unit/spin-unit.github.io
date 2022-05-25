@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
 .md-content > p {
     text-align: left;
     font-size: 1.4rem;
-    line-height: 1.8rem;
+    line-height: normal;
     margin-bottom: 1.4rem;
     font-weight: 300;
 }
@@ -265,13 +265,13 @@ body::-webkit-scrollbar {
 
 .page-title {
     font-size: 3.2rem;
-    line-height: 3.2rem;
+    line-height: normal;
     margin-bottom: 0.4rem;
 }
 
 .page-nav {
     font-size: 2.5rem;
-    line-height: 2.5rem;
+    line-height: normal;
     margin-bottom: 0.4rem;
 }
 
@@ -293,7 +293,7 @@ body::-webkit-scrollbar {
 .page-title-description {
     text-align: center;
     font-size: 1.8rem;
-    line-height: 1.8rem;
+    line-height: normal;
     font-weight: 300;
     margin-bottom: 1.5rem;
 }
@@ -301,14 +301,14 @@ body::-webkit-scrollbar {
 .page-credits {
     text-align: left;
     font-size: 1.4rem;
-    line-height: 1.8rem;
+    line-height: normal;
     font-weight: 300;
 }
 
 .page-title-description-s {
     text-align: center;
     font-size: 1.4rem;
-    line-height: 1.8rem;
+    line-height: normal;
     margin-bottom: 1.5rem;
     font-weight: 300;
 }
@@ -316,7 +316,7 @@ body::-webkit-scrollbar {
 .page-question {
     text-align: left;
     font-size: 1.8rem;
-    line-height: 1.8rem;
+    line-height: normal;
     margin-bottom: 0rem;
     font-weight: 400;
 }
@@ -328,14 +328,14 @@ body::-webkit-scrollbar {
 
 .content-title {
     font-size: 2.5rem;
-    line-height: 2.5rem;
+    line-height: normal;
     margin-bottom: 0.4rem;
     font-weight: 400;
 }
 
 .content-description {
     font-size: 1.4rem;
-    line-height: 1.4rem;
+    line-height: normal;
     font-weight: 300;
 }
 
@@ -347,9 +347,15 @@ body::-webkit-scrollbar {
   text-decoration: none;
   color: #000;
   font-weight: 300;
-  display: block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.psuedo-list {
+  text-decoration: none;
+  color: #000;
+  font-weight: 300;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .psuedo-list:hover {
@@ -401,7 +407,7 @@ body::-webkit-scrollbar {
 .project-title {
     display: block;
     font-size: 1.8rem;
-    line-height: 1.8rem;
+    line-height: normal;
     margin-bottom: 0.4rem;
     font-weight: 400;
 }
@@ -419,7 +425,7 @@ body::-webkit-scrollbar {
 .project-description {
     display: block;
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: normal;
     margin-bottom: 0.25rem;
     font-weight: 400;
 }
@@ -427,7 +433,7 @@ body::-webkit-scrollbar {
 .project-sub-description {
     display: block;
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: normal;
     margin-bottom: 0.25rem;
     font-weight: 200;
 }
@@ -457,7 +463,7 @@ body::-webkit-scrollbar {
 /* NAVIGATION */
 .p-nav-text {
     font-size: 2.5rem;
-    line-height: 3rem;
+    line-height: normal;
     margin-top: 0rem;
 }
 
@@ -485,7 +491,7 @@ body::-webkit-scrollbar {
   bottom: 1.25rem;
   right: 1.25rem;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: normal;
 }
 
 .corner-nav-bl {
@@ -494,7 +500,7 @@ body::-webkit-scrollbar {
   bottom: 1.25rem;
   left: 1.25rem;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: normal;
 }
 
 .corner-nav-tl {
@@ -503,7 +509,7 @@ body::-webkit-scrollbar {
   top: 1.25rem;
   left: 1.25rem;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: normal;
 }
 
 .corner-nav-tr-x {
@@ -512,7 +518,7 @@ body::-webkit-scrollbar {
   top: 0.5rem;
   right: 1.25rem;
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: normal;
   text-decoration: none;
   font-weight: 400;
   color: #000;
@@ -529,7 +535,7 @@ body::-webkit-scrollbar {
   top: 0.5rem;
   left: 1.25rem;
   font-size: 2.5rem;
-  line-height: 2.8rem;
+  line-height: normal;
   text-decoration: none;
   text-transform: none;
 }
@@ -606,7 +612,7 @@ button[aria-expanded="true"]{
     background-color: #fff !important;
     color: #777 !important;
     font-size: 1.4rem !important;
-    line-height: 1.7rem !important;
+    line-height: normal;
     font-weight: 300;
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
@@ -685,18 +691,18 @@ button[aria-expanded="true"]{
 
   .p-nav-text {
         font-size: 1.5rem;
-        line-height: 2rem;
+        line-height: normal;
         margin-top: 0rem;
     }
 
     .corner-nav-br {
         font-size: 0.6rem;
-        line-height: 0.6rem;
+        line-height: normal;
     }
 
     .corner-nav-bl {
         font-size: 0.6rem;
-        line-height: 0.6rem;
+        line-height: normal;
         }
 
     .corner-nav > a {
