@@ -49,9 +49,9 @@
 							{% assign reports_year = site.reports | where_exp: 'report', "report.year contains year_" %}
 							{% for report in reports_year %}{% if report.year == year_ %}
 								{% if report.external_url %}
-									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{report.title}} &#8599;&#xFE0E;</a><br>
+									<a class="psuedo-list" href="{{report.external_url}}" target="_blank">{{report.title}} &#8599;&#xFE0E;</a><br>
 								{% else %}
-									<a class="psuedo-list" href="{{post.url}}">{{report.title}}</a><br>
+									<a class="psuedo-list" href="{{report.url}}">{{report.title}}</a><br>
 								{% endif %}
 							{% endif %}{% endfor %}
 							</p>
@@ -65,9 +65,9 @@
 							{% assign reports_year = site.reports | where_exp: 'report', "report.year contains year_" %}
 							{% for report in reports_year %}{% if report.year == year_ %}
 								{% if report.external_url %}
-									<a class="psuedo-list" href="{{post.external_url}}" target="_blank">{{report.title}} &#8599;&#xFE0E;</a><br>
+									<a class="psuedo-list" href="{{report.external_url}}" target="_blank">{{report.title}} &#8599;&#xFE0E;</a><br>
 								{% else %}
-									<a class="psuedo-list" href="{{post.url}}">{{report.title}}</a><br>
+									<a class="psuedo-list" href="{{report.url}}">{{report.title}}</a><br>
 								{% endif %}
 							{% endif %}{% endfor %}
 							</p>
