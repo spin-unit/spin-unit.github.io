@@ -10,8 +10,8 @@ team-members: Damiano Cerrone, John Hadaway
 project-lead: Damiano Cerrone
 project-partners: Tampere University, Toretei
 categories: [education, featured]
-thumbnail: /assets/img/projects/2019-metanar/2019-metanar-0.jpeg
-cover-image: /assets/img/projects/2019-metanar/2019-metanar-3.gif
+thumbnail: /assets/img/projects/2019-metanar/2019-metanar-3.gif
+cover-image: /assets/img/projects/2019-metanar/2019-metanar-0.jpeg
 external_url:
 return_path: /work/education
 description: Mapping Narva's digital landscape. 
