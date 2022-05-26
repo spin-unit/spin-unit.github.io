@@ -15,7 +15,7 @@ cover-image: /assets/img/projects/2019-metapark/SPIN-Unit-Parking-Normative-1.jp
 external_url:
 return_path: /work/data
 description: A performance-based parking policy for the city Tallinn.
-question: How to design a performance-based parking policy?
+question: How do we design a performance-based parking policy?
 ---
 
 Ensuring a city’s success based on urban assets requires physical connections, proximities, urban density and a high diversity of activities. This usually comes with a heavy dose of space dedicated to parking vehicles, which, inversely to what is generally thought, can hinder local economic growth, social cohesion and the overall quality of life.

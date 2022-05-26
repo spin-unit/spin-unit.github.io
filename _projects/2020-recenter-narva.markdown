@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ReCenter Narva
+title: Recentre Narva
 id: ReCenterNarva
 date: 2020-10-01
 year: 2020
@@ -14,8 +14,8 @@ thumbnail: /assets/img/projects/2020-recenter-narva/SPIN-Unit-2020-recenter-narv
 cover-image: /assets/img/projects/2020-recenter-narva/SPIN-Unit-2020-recenter-narva-2.png
 external_url:
 return_path: /work/innovation
-description: Co-createing the youth vision for the city of Narva.
-question: How to facilitate the collective design of our cities?
+description: Co-creating the City of Narva's youth vision.
+question: How do we facilitate the collective design of our cities?
 ---
 
 The new Narva master plan focuses on rethinking urban design to be increasingly attractive and liveable for the youth. A significant step in this strategy was to build the mental maps of the city as seen by young people and eventually give them agency to reimagine it. Yet, young people are elusive to traditional surveys, and they are challenging to engage in participatory planning programs.

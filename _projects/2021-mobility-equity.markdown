@@ -15,7 +15,7 @@ cover-image: /assets/img/projects/2021-mobility-equity/spin-unit-mobility-equity
 external_url:
 return_path: /work/data
 description: A framework for equitable public transit stops.
-question: How to ensure mobility justice beyond the municipal border of smart cities? 
+question: How do we ensure mobility justice beyond the municipal border of smart cities? 
 ---
 
 With the advancement of smart city solutions, the supply of high-efficiency public transport has become a luxury in top-tier cities. This has introduced an imbalance between municipalities that can afford smart-city solutions and those that don’t. The uneven distribution of mobility services across regions exacerbates social inequalities and fails to provide equal opportunity between cities and rural communities. The challenge we face is to ensure mobility justice beyond the municipal border of smart cities.

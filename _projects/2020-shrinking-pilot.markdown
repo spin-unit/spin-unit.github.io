@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  A resaerch pilot for shrinking cities
+title:  A research pilot for shrinking cities
 id: shrinking pilot
 date: 2020-01-12
 year: 2020
@@ -15,7 +15,7 @@ cover-image: /assets/img/projects/2020-shrinking-pilot/2020-Shrinking-pilot-2.pn
 external_url:
 return_path: /work/data
 description: A resaerch pilot to explore new data sources to map building vacancies.
-question: What are the reliable data sources to map shrinkage?
+question: When mapping shrinkage, what kinds of and sources of data should we use?
 ---
 
 In 2018 the Ministry of Finance started to received dozens unwanted apartments of apartments from people in East Estonia. The debate on shrinking cities was already open, but this became a turning point and a surprise, particularly given that at the time, interest rates were low, and housing prices were on a steady rise - 5,7% year-on-year. This phenomenon spun a new investigation branch in Estonia, focusing on the relationships between demographic change and the built environment. 
