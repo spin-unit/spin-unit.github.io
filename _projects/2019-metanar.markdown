@@ -8,7 +8,7 @@ client: Trojan Horse
 place: Narva, Estonia
 team-members: Damiano Cerrone, John Hadaway
 project-lead: Damiano Cerrone
-project-partners:
+project-partners: Trojan Horse
 categories: [education, featured]
 thumbnail: /assets/img/projects/2019-metanar/2019-metanar-3.gif
 cover-image: /assets/img/projects/2019-metanar/2019-metanar-0.jpeg
