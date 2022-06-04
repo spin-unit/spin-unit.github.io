@@ -18,7 +18,7 @@ description: A performance-based parking policy for the city Tallinn.
 question: How do we design a performance-based parking policy?
 ---
 
-Ensuring a city’s success based on urban assets requires physical connections, proximities, urban density and a high diversity of activities. This usually comes with a heavy dose of space dedicated to parking vehicles, which, inversely to what is generally thought, can hinder local economic growth, social cohesion and the overall quality of life.
+Ensuring a city’s success based on urban assets requires physical connections, proximities, urban density and a high diversity of activities. This usually comes with a heavy dose of space dedicated to parking vehicles, which, inversely to what is generally thought, can hinder local economic growth, social cohesion, and the overall quality of life.
 
 > metaPark aimed to draft a parking policy reform in Tallinn, harnessing the real economic value of parking space and returning it to the city. 
 

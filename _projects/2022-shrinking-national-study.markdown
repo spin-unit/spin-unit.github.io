@@ -14,7 +14,7 @@ thumbnail: /assets/img/projects/2022-shrinking-national-study/SPIN-Unit-2022-shr
 cover-image: /assets/img/projects/2022-shrinking-national-study/SPIN-Unit-2022-shrinking-national-study-5.jpg
 external_url:
 return_path: /work/data
-description: Producing the national map of shrinkage in Estonia with fine-grained electricity and population-registry data.
+description: Producing Estonia's shrinking cities map using building-level data.
 question: What are the shrinking patterns of Estonia, and which places are most vulnerable to it?
 ---
 

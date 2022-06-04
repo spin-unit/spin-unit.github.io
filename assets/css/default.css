@@ -233,9 +233,9 @@ body::-webkit-scrollbar {
 
 .md-content > p {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: normal;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.2rem;
     font-weight: 300;
 }
 
@@ -300,14 +300,14 @@ body::-webkit-scrollbar {
 
 .page-credits {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: normal;
     font-weight: 300;
 }
 
 .page-title-description-s {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: normal;
     margin-bottom: 1.5rem;
     font-weight: 300;
@@ -327,14 +327,14 @@ body::-webkit-scrollbar {
 
 
 .content-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: normal;
     margin-bottom: 0.4rem;
     font-weight: 400;
 }
 
 .content-description {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: normal;
     font-weight: 300;
 }
@@ -355,7 +355,7 @@ body::-webkit-scrollbar {
   color: #000;
   font-weight: 300;
   margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .psuedo-list:hover {
@@ -435,7 +435,7 @@ body::-webkit-scrollbar {
     font-size: 1rem;
     line-height: normal;
     margin-bottom: 0.25rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .project-grid-cell {
@@ -603,7 +603,7 @@ button[aria-expanded="true"]{
 .accordion-button{
     background-color: #fff !important;
     color: #777 !important;
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
 }
@@ -611,7 +611,7 @@ button[aria-expanded="true"]{
 .accordion-body{
     background-color: #fff !important;
     color: #777 !important;
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
     line-height: normal;
     font-weight: 300;
     padding-top: 0.9rem;

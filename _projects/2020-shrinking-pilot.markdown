@@ -14,7 +14,7 @@ thumbnail: /assets/img/projects/2020-shrinking-pilot/2020-Shrinking-pilot-0.jpg
 cover-image: /assets/img/projects/2020-shrinking-pilot/2020-Shrinking-pilot-2.png
 external_url:
 return_path: /work/data
-description: A resaerch pilot to explore new data sources to map building vacancies.
+description: A research pilot exploring new data sources for mapping building vacancies.
 question: When mapping shrinkage, what kinds of and sources of data should we use?
 ---
 
