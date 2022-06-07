@@ -20,12 +20,12 @@ question: How do we facilitate collaboration across diverse stakeholders, and co
 
 In the 1980s, Jyväskylä transformed its main-motorway into a pedestrian street, a bold, innovative step. From August to October 2021, we, alongside Tampere University, worked with the city to continue this tradition of high-street innovation. Together, we helped activate a community of high-street actors, with the purpose of enabling the street to thrive well into the future. 
 
-![SPIN-Unit-2022-shrinkingcities-1](/assets/img/projects/2021-recentre-jyv/2021-recentre-jyv-2.jpg){:class="intext-img"}
+![2021-recentre-jyv-2](/assets/img/projects/2021-recentre-jyv/2021-recentre-jyv-2.jpg){:class="intext-img"}
 *The charette.*
 
 The two-day Recentre Workshop centred around a charette. On the first day, we present cartographic analysis, invited experts to share analytical frames of reference, and engaged the high-street community in a tour and a charette. The charette revolved around three elements: manifesto, vision, and timeline. On the second day, the results of the charette were synthesised and put online on a purpose-built website, and we came together to celebrate the shared vision. 
 
-![SPIN-Unit-2022-shrinkingcities-2](/assets/img/projects/2021-recentre-jyv/2021-recentre-jyv-3.jpg){:class="intext-img"}
+![2021-recentre-jyv-3](/assets/img/projects/2021-recentre-jyv/2021-recentre-jyv-3.jpg){:class="intext-img"}
 *Toretei's AI technology, used to co-create a vision of the high-street.*
 
 ---
