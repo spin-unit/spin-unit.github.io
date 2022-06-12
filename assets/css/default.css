@@ -666,6 +666,10 @@ button[aria-expanded="true"]{
         width: 100%;
     }
 
+    .page-title {
+        font-size: 1.8rem;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -712,6 +716,11 @@ button[aria-expanded="true"]{
         background-color: #fff;
         font-weight: 500;
     }
+
+    .page-title {
+        font-size: 1.8rem;
+    }
+
 }
 
 
