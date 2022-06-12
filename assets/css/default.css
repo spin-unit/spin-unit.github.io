@@ -670,6 +670,18 @@ button[aria-expanded="true"]{
         font-size: 1.8rem;
     }
 
+    .page-title-description {
+        font-size: 1.2rem;
+    }
+
+    .page-question {
+        font-size: 1.2rem;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -693,7 +705,7 @@ button[aria-expanded="true"]{
         width: 100%;
     }
 
-  .p-nav-text {
+    .p-nav-text {
         font-size: 1.5rem;
         line-height: normal;
         margin-top: 0rem;
@@ -719,6 +731,18 @@ button[aria-expanded="true"]{
 
     .page-title {
         font-size: 1.8rem;
+    }
+
+    .page-title-description {
+        font-size: 1.2rem;
+    }
+
+    .page-question {
+        font-size: 1.2rem;
+    }
+
+    .mobile-hide {
+        display: none;
     }
 
 }
