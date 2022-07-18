@@ -14,7 +14,7 @@ thumbnail: /assets/img/projects/2022-shrinking-national-study/SPIN-Unit-2022-shr
 cover-image: /assets/img/projects/2022-shrinking-national-study/SPIN-Unit-2022-shrinking-national-study-5.jpg
 external_url:
 return_path: /work/data
-description: Producing Estonia's shrinking cities map using building-level data.
+description: Unpacking the complexity of shrinkage for policy makers and regional planners.
 question: What are the shrinking patterns of Estonia, and which places are most vulnerable to it?
 ---
 
@@ -46,11 +46,3 @@ Growing cities are also shrinking and shrinking cities are also growing. Overall
 &#8599;&#xFE0E; They keynote presented at the OECD event [is available here](https://drive.google.com/file/d/1nem1k5DWHB9_btreIrIAYD2INh3yzO9H/view?usp=sharing){:target="_blank"}
 
 &#8599;&#xFE0E; The full report in Estonian is [available here](https://drive.google.com/file/d/13MNKwqsoExiFcsUto3lfTu_m-PvGLdw6/view?usp=sharing){:target="_blank"}
-
-
-
-
-
-
-
-
