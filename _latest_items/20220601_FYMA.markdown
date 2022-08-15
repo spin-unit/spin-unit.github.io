@@ -1,0 +1,7 @@
+---
+title:  London’s Queen Elizabeth Olympic park using AI for better planning.
+short-narration: Help developing key performance indicator for sustainable mobility plans in London.
+date: 2022-06-01
+display-date: June 2021
+external_url: https://www.fyma.ai/case-studies/case-study-londons-queen-elizabeth-olympic-park-using-ai-for-better-planning
+---
