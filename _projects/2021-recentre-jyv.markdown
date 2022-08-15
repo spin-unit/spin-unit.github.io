@@ -15,13 +15,15 @@ cover-image: /assets/img/projects/2021-recentre-jyv/2021-recentre-jyv-1.jpg
 external_url:
 return_path: /work/innovation
 description: Activating a high-street community in the City of Jyväskylä.
-question: How do we facilitate collaboration across diverse stakeholders, and co-create shared visions and plans for our cities?
+question: How to democratise participatory design?
 ---
 
-In the 1980s, Jyväskylä transformed its main-motorway into a pedestrian street, a bold, innovative step. From August to October 2021, we, alongside Tampere University, worked with the city to continue this tradition of high-street innovation. Together, we helped activate a community of high-street actors, with the purpose of enabling the street to thrive well into the future.
+Participatory design is at the core of Finnish urban design and it is considered a standard practice in urban development. The power of participatory processes can only be fully realised when participants are given a common, expressive language to reimagine the cities they live in.
 
 ![2021-recentre-jyv-2](/assets/img/projects/2021-recentre-jyv/2021-recentre-jyv-2.jpg){:class="intext-img"}
 *The charette.*
+
+To improve and democratise urban design processes we need to bring get people, designers, and policy-makers talking to each other in one common language. To achieve that we partnered with [Toretei](https://toretei.com){:target="_blank"} to build UrbanistAI, a participatory design process facilitated by human AI.
 
 The two-day Recentre Workshop centred around a charette. On the first day, we present cartographic analysis, invited experts to share analytical frames of reference, and engaged the high-street community in a tour and a charette. The charette revolved around three elements: manifesto, vision, and timeline. On the second day, the results of the charette were synthesised and put online on a purpose-built website, and we came together to celebrate the shared vision.
 
